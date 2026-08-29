@@ -1,18 +1,19 @@
- suma(a, b):
+def suma(a, b):
+    """Calcula la suma de dos números 1."""
     return a + b
 
- resta(a, b):w
+def resta(a, b):
     """Calcula la resta de dos números."""
     return a - b
 
-def obtener_meensaje_bienvenida(nombre="Usuario"):
+def obtener_mensaje_bienvenida(nombre="Usuario"):
     """Retorna un mensaje de bienvenida personalizado."""
-    return f"¡Hola, {nombre}! Bienvenidow a la aplicación."
+    return f"¡Hola, {nombre}! Bienvenido a la aplicación."
 
-if __name__ ==____ "__main__":
+if _name_ == "_main_":
     print(obtener_mensaje_bienvenida("DevOps Team"))
-    w
-  "  resultado_suma = suma(10, 5)"
+    
+    resultado_suma = suma(10, 5)
     resultado_resta = resta(10, 5)
     
     print(f"Resultado Suma (10 + 5): {resultado_suma}")
