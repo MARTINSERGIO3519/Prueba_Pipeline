@@ -1,6 +1,5 @@
-def suma(a, b):
-    """Calcula la suma de dos números 1."""
-    return a + b
+def test_suma():
+    assert suma(2, 3) == 5
 
 def resta(a, b):
     """Calcula la resta de dos números."""
