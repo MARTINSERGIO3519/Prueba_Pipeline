@@ -10,7 +10,7 @@ def obtener_mensaje_bienvenida(nombre="Usuario"):
     """Retorna un mensaje de bienvenida personalizado."""
     return f"¡Hola, {nombre}! Bienvenido a la aplicación."
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     print(obtener_mensaje_bienvenida("DevOps Team"))
     
     resultado_suma = suma(10, 5)
